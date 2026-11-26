@@ -82,7 +82,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         Container(
                           padding: const EdgeInsets.all(16),
                           decoration: BoxDecoration(
-                            color: kPrimaryColor,
+                            gradient: kAiGradient,
                             borderRadius: BorderRadius.circular(20),
                             boxShadow: [
                               BoxShadow(
@@ -175,7 +175,7 @@ class _LoginScreenState extends State<LoginScreen> {
                               ? const Center(child: CircularProgressIndicator())
                               : DecoratedBox(
                                   decoration: BoxDecoration(
-                                    color: kPrimaryColor,
+                                    gradient: kAiGradient,
                                     borderRadius: BorderRadius.circular(14),
                                     boxShadow: [
                                       BoxShadow(
@@ -224,7 +224,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         child: Container(
                           padding: const EdgeInsets.all(12),
                           decoration: BoxDecoration(
-                            color: kPrimaryColor,
+                            gradient: kSoftAiGradient,
                             borderRadius: BorderRadius.circular(12),
                             border: Border.all(color: kPrimaryColor.withValues(alpha: 0.2)),
                           ),
@@ -245,7 +245,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         child: Container(
                           padding: const EdgeInsets.all(12),
                           decoration: BoxDecoration(
-                            color: kPrimaryColor,
+                            gradient: kSoftAiGradient,
                             borderRadius: BorderRadius.circular(12),
                             border: Border.all(color: kPrimaryColor.withValues(alpha: 0.2)),
                           ),

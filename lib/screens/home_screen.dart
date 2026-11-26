@@ -133,7 +133,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     Container(
                       padding: const EdgeInsets.all(18),
                       decoration: BoxDecoration(
-                        color: kPrimaryColor,
+                        gradient: kAiGradient,
                         borderRadius: BorderRadius.circular(18),
                         boxShadow: [
                           BoxShadow(
@@ -289,7 +289,7 @@ class _CategoryCard extends StatelessWidget {
               Container(
                 padding: const EdgeInsets.all(10),
                 decoration: BoxDecoration(
-                  color: kPrimaryColor,
+                  gradient: kSoftAiGradient,
                   borderRadius: BorderRadius.circular(14),
                 ),
                 child:
