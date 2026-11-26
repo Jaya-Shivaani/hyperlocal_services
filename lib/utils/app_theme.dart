@@ -20,12 +20,6 @@ const kSoftAiGradient = LinearGradient(
   end: Alignment.bottomRight,
 );
 
-const kBackgroundAiGradient = LinearGradient(
-  colors: [Color(0xFFE0E7FF), Color(0xFFF3E8FF), Color(0xFFCFFAFE)],
-  begin: Alignment.topLeft,
-  end: Alignment.bottomRight,
-);
-
 class AiBackground extends StatelessWidget {
   final Widget child;
   const AiBackground({super.key, required this.child});

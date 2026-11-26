@@ -139,7 +139,6 @@ class _BookServiceScreenState extends State<BookServiceScreen> {
                         ..._providers.map((p) => _ProviderCard(
                               provider: p,
                               selected: _selectedProvider?.id == p.id,
-                              isTopPick: _providers.indexOf(p) == 0,
                               onSelect: () => setState(() => _selectedProvider = p),
                             )),
                         const SizedBox(height: 20),
@@ -285,13 +284,11 @@ class _BookServiceScreenState extends State<BookServiceScreen> {
 class _ProviderCard extends StatelessWidget {
   final ProviderModel provider;
   final bool selected;
-  final bool isTopPick;
   final VoidCallback onSelect;
 
   const _ProviderCard({
     required this.provider,
     required this.selected,
-    this.isTopPick = false,
     required this.onSelect,
   });
 
